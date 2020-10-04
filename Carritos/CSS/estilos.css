@@ -1,0 +1,66 @@
+.fondojumbotron
+{
+  background-image: url("../imagenes/jumbo.jpg");
+  background-size: 1300px 250px ;
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+}
+.fuente
+{
+  font-family: 'Orbitron', sans-serif;
+  font-size: 25px;
+}
+.fondototal
+{
+  background-color: black;
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 15px;
+}
+.fuente2
+{
+  font-family: 'Orbitron', sans-serif;
+  font-size: 15px;
+  color: white;
+}
+
+.a
+{
+  text-decoration-color: none;
+  color: #682864;
+  text-decoration: none;
+}
+
+.enlace_inicio:hover
+{
+  color: white;
+  text-decoration: none;
+}
+
+/*Uso para la tabla*/
+.b
+{
+  text-align: center;
+width: 1000px;
+}
+.cq
+{
+  padding-left: 60px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  justify-content: center;
+  text-align: center;
+}
+.ima
+{
+  width:1100px;
+  height:600px;
+}
+.er
+{
+  text-align: center;
+  justify-content: center;
+  padding-left: 20px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}

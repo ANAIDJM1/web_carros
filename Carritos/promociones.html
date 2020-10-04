@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>De Lujo</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="CSS/estilos.css">
+    <link href='https://fonts.googleapis.com/css?family=Orbitron:500' rel='stylesheet' type='text/css'>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+      <!--Hace funcionar el menu para el dispositivo movil-->
+    <script src ="js/jquery-2.2.3.min.js"></script>
+    <script src ="js/bootstrap.js"></script>
+  </head>
+
+  <!--Cuerpo de la web-->
+  <body class="fondototal">
+    <div class="container">
+      <header>
+        <!--Jumbotron, se adapta al ancho del dispositivo-->
+          <div class="jumbotron fondojumbotron">
+          <h1>De lujo</h1>
+          <div class="fuente">  <i class="fa fa-gift" aria-hidden="true"> Promociones</i></div>
+        </div>
+
+        <nav class="navbar navbar-default fondototal">
+          <div class="conteiner-fluid">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#barra1" aria-expanded="false">
+
+                    <!--span= usa clase sr-only , se usa para personas con discapacidad (ceguera) -->
+                  <span class="sr-only">barra de navegacion</span>
+                    <!--icon bar=botton linesitas-->
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+             </div>
+            <!--COLLAPSE= Hace que la barra colapse-->
+              <div class="collapse navbar-collapse" id="barra1">
+                <ul class="nav navbar-nav">
+
+                  <!--# hace referencia asi misma, a la misma pagina-->
+                  <!--  <li class="active"><a href="#">Inicio</a></li>-->
+                  <!--Menu emergente-->
+                  <li class="dropdown " >
+                    <a href="index.html" class="dropdown-toggle" data-toggle="dropdown"
+                    role="button" aria-haspopup="true" aria-expanded="false">Inicio<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li class="active"><a href="index.html#quienessomos">Quienes somos</a></li>
+                      <li ><a href="contacto.html#historia">Contacto</a></li>
+                    </ul>
+
+                  <li ><a href="precios.html#precios">Precios</a></li>
+                  <li ><a href="productos.html#productos">Productos</a></li>
+                  <li class="active"><a href="promociones.html#promociones">Promociones</a></li>
+                </ul>
+              </div>
+          </div>
+        </nav>
+      </header>
+
+
+      <!-- CUERPO DE PAGINA-->
+<div class="er">
+      <div id="PROMOS" class="carousel slide" data-ride="carousel">
+  <!-- Indicadores  , en este caso solo habra 4 imagenes a desplazarse-->
+  <ol class="carousel-indicators">
+    <li data-target="#PROMOS" data-slide-to="0" class="active"></li>
+    <li data-target="#PROMOS" data-slide-to="1"></li>
+    <li data-target="#PROMOS" data-slide-to="2"></li>
+    <li data-target="#PROMOS" data-slide-to="3"></li>
+  </ol>
+
+  <!-- envolvente para las imagenes -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active ima">
+      <img    src="imagenes/9.jpg" alt="mantenimiento"   >
+      <div class="carousel-caption">
+        <h3>Mantenimiento</h3>
+        <p>Si se convierte en un usuario frecuente, le damos mantenimiento gratis por un año</p>
+      </div>
+    </div>
+
+    <div class="item ima">
+      <img   src="imagenes/6.jpg" alt="gps"   >
+      <div class="carousel-caption">
+        <h3>GPS</h3>
+        <p>Por tuning completo, se le instala GPS gratis!</p>
+      </div>
+    </div>
+
+    <div class="item ima">
+      <img    src="imagenes/nueve.jpg" alt="chasis"   >
+      <div class="carousel-caption">
+        <h3>Instalacion de sistema</h3>
+        <p>Instalacion de sistemas de ubicacion y paneles a mitad de precio por pago de inyectores</p>
+      </div>
+    </div>
+
+    <div class="item ima">
+      <img src="imagenes/fondo1.jpg" alt="Faroles">
+      <div class="carousel-caption">
+        <h3>Faroles</h3>
+        <p>Cambio de faroles a menor precio por este mes</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- controles de derecha e izquierda -->
+  <a class="left carousel-control" href="# PROMOS" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previo</span>
+  </a>
+  <a class="right carousel-control" href="# PROMOS" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">siguiente</span>
+  </a>
+</div>
+
+</div>
+      <!-- PIE DE PAGINA-->
+            <section>
+              <footer >
+                <nav>
+                <ul class="breadcrumb fondototal">
+                 <li><a  href="index.html" class="enlace_inicio a"> Inicio </a></li>
+                 <li><a  href="precios.html" class="enlace_inicio a"> Precios </a></li>
+                 <li><a  href="productos.html" class="enlace_inicio a"> Productos </a></li>
+                 <li><a  href="promociones.html"  class="enlace_inicio a"> Promociones </a></li>
+              </ul>
+            </nav>
+              </footer>
+            </section>
+    </body>
+    </div>
+  </html>

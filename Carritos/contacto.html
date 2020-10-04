@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>De Lujo</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="CSS/estilos.css">
+    <link href='https://fonts.googleapis.com/css?family=Orbitron:500' rel='stylesheet' type='text/css'>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+      <!--Hace funcionar el menu para el dispositivo movil-->
+    <script src ="js/jquery-2.2.3.min.js"></script>
+    <script src ="js/bootstrap.js"></script>
+  </head>
+
+  <!--Cuerpo de la web-->
+  <body class="fondototal">
+    <div class="container">
+      <header>
+        <!--Jumbotron, se adapta al ancho del dispositivo-->
+          <div class="jumbotron fondojumbotron">
+          <h1>De lujo</h1>
+          <div class="fuente">  <i class="fa fa-facebook-official" aria-hidden="true"> Contacto</i></div>
+        </div>
+
+        <nav class="navbar navbar-default fondototal">
+          <div class="conteiner-fluid">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#barra1" aria-expanded="false">
+
+                    <!--span= usa clase sr-only , se usa para personas con discapacidad (ceguera) -->
+                  <span class="sr-only">barra de navegacion</span>
+                    <!--icon bar=botton linesitas-->
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+             </div>
+            <!--COLLAPSE= Hace que la barra colapse-->
+              <div class="collapse navbar-collapse" id="barra1">
+                <ul class="nav navbar-nav">
+
+                  <!--# hace referencia asi misma, a la misma pagina-->
+                  <!--  <li class="active"><a href="#">Inicio</a></li>-->
+                  <!--Menu emergente-->
+                  <li class="dropdown" >
+                    <a href="index.html" class="dropdown-toggle" data-toggle="dropdown"
+                    role="button" aria-haspopup="true" aria-expanded="false">Inicio<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li class="active"><a href="index.html#quienessomos">Quienes somos</a></li>
+                      <li ><a href="contacto.html#historia">Contacto</a></li>
+                    </ul>
+
+                  <li ><a href="precios.html#precios">Precios</a></li>
+                  <li ><a href="productos.html#productos">Productos</a></li>
+                  <li ><a href="promociones.html#promociones">Promociones</a></li>
+                </ul>
+              </div>
+          </div>
+        </nav>
+      </header>
+      <!---->
+
+      <!--Formulario-->
+      <div class="fuente2">
+        <h3>
+        <p>Aqui puede llenar sus datos para contactarnos: </p>
+      </h3>
+      </div>
+      <form method="post"> <!--envia datos sin poner en riesgo la informacion-->
+        <div class="form-group fuente2">
+        <label for="Nombre_user">Nombre: </label>
+          <input type="text" class="form-control" id="Names" placeholder="Ingrese su nombre" name="NombreUsuario" required="Ingrese su nombre conductor"/>
+          <!--Placeholder es lo que se ve atrás-->
+        </div>
+        <div class="form-group">
+          <label for="Email_user">Correo Electrónico: </label>
+          <input type="email" class="form-control" id="Mails" placeholder="Ingrese su correo" name="CorreoUsuario" required="y su correo?"/>
+        </div>
+        <div class="form-group">
+          <label for="Fecha_Nacimiento_user">Fecha de Nacimiento: </label>
+          <input type="date" class="form-control" id="Dates" name="FechaUsuario" required="olvido llenar este campo"/>
+        </div>
+        <div>
+            <label for="Comentario">Comentario: </label>
+          <textarea class="form-control" rows="4"></textarea>
+        </div>
+        <p></p>
+        <input type="submit" class="btn btn-default" value="Enviar" id="enviar" />
+
+    </form>
+
+   <P>
+     <Br>
+     </br>
+     </P>
+
+<!-- PIE DE PAGINA-->
+      <section>
+        <footer >
+          <nav>
+          <ul class="breadcrumb fondototal">
+           <li><a  href="index.html" class="enlace_inicio a"> Inicio </a></li>
+           <li><a  href="precios.html" class="enlace_inicio a"> Precios </a></li>
+           <li><a  href="productos.html" class="enlace_inicio a"> Productos </a></li>
+           <li><a  href="promociones.html"  class="enlace_inicio a"> Promociones </a></li>
+        </ul>
+      </nav>
+        </footer>
+      </section>
+    </body>
+    </div>
+  </html>

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>De Lujo</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="CSS/estilos.css">
+    <link href='https://fonts.googleapis.com/css?family=Orbitron:500' rel='stylesheet' type='text/css'>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+      <!--Hace funcionar el menu para el dispositivo movil-->
+    <script src ="js/jquery-2.2.3.min.js"></script>
+    <script src ="js/bootstrap.js"></script>
+  </head>
+
+  <!--Cuerpo de la web-->
+  <body class="fondototal">
+    <div class="container">
+      <header>
+        <!--Jumbotron, se adapta al ancho del dispositivo-->
+          <div class="jumbotron fondojumbotron">
+          <h1>De lujo</h1>
+      <div class="fuente">  <i class="fa fa-usd" aria-hidden="true"> Precios</i></div>
+        </div>
+
+        <nav class="navbar navbar-default fondototal">
+          <div class="conteiner-fluid">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#barra1" aria-expanded="false">
+
+                    <!--span= usa clase sr-only , se usa para personas con discapacidad (ceguera) -->
+                  <span class="sr-only">barra de navegacion</span>
+                    <!--icon bar=botton linesitas-->
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+             </div>
+            <!--COLLAPSE= Hace que la barra colapse-->
+              <div class="collapse navbar-collapse" id="barra1">
+                <ul class="nav navbar-nav">
+
+                  <!--# hace referencia asi misma, a la misma pagina-->
+                  <!--  <li class="active"><a href="#">Inicio</a></li>-->
+                  <!--Menu emergente-->
+                  <li class="dropdown " >
+                    <a href="index.html" class="dropdown-toggle" data-toggle="dropdown"
+                    role="button" aria-haspopup="true" aria-expanded="false">Inicio<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li class="active"><a href="index.html#quienessomos">Quienes somos</a></li>
+                      <li ><a href="contacto.html#historia">Contacto</a></li>
+                    </ul>
+
+                  <li class="active"><a href="precios.html#precios">Precios</a></li>
+                  <li ><a href="productos.html#productos">Productos</a></li>
+                  <li ><a href="promociones.html#promociones">Promociones</a></li>
+                </ul>
+              </div>
+          </div>
+        </nav>
+      </header>
+
+      <!--Cuerpo-->
+      <!--Tabla-->
+  <section>
+    <div class="cq">
+      <div  class="table-responsive ">
+          <table class="table b">
+        <tr>  <!--fila n1-->
+          <td >Servicio</td>
+          <td >Descripcion</td>
+          <td >Precio unitario $</td>
+          <td >Precio mayorista $</td>
+        </tr>
+        <tr>  <!--fila n2-->
+          <td>
+          <img class="img-rounded" src="imagenes/engranajes.jpg" width="100px" high="100px" alt="engranajes "  >
+        </td>
+          <td>Cambio del cambio de marchas</td>
+          <td>800</td>
+          <td>700</td>
+        </tr>
+        <tr>  <!--fila n3-->
+          <td>
+            <img class="img-rounded" src="imagenes/aro.jpg" width="100px" high="100px" alt="aros"  >
+          </td>
+          <td>Pintado de aros de aleación</td>
+          <td>400</td>
+          <td>300</td>
+        </tr>
+        <tr>  <!--fila n4-->
+          <td>
+            <img class="img-rounded" src="imagenes/pantalla.jpg" width="100px" high="100px" alt="pantalla"  >
+          </td>
+          <td>Implementación de pantallas</td>
+          <td>450</td>
+          <td>350</td>
+        </tr>
+        <tr>  <!--fila n5-->
+          <td>
+            <img class="img-rounded" src="imagenes/fono.jpg" width="100px" high="100px" alt="fono"  >
+          </td>
+          <td>Accesorios para telefono</td>
+          <td>200</td>
+          <td>100</td>
+        </tr>
+        <tr>  <!--fila n6-->
+          <td>
+            <img class="img-rounded" src="imagenes/6.jpg" width="100px" high="100px" alt="luces"  >
+          </td>
+          <td>Iluminación (luces de neón )</td>
+          <td>1000</td>
+          <td>870</td>
+        </tr>
+        <tr>  <!--fila n7-->
+          <td>
+            <img class=" img-rounded" src="imagenes/motor.jpg" width="100px" high="100px" alt="motor"  >
+          </td>
+          <td>Repotencionamiento a motor</td>
+          <td>2000</td>
+          <td>1700</td>
+        </tr>
+        <tr>  <!--fila n8-->
+          <td>
+            <img class="img-rounded" src="imagenes/engranajes2.jpg" width="100px" high="100px" alt="rodamientos"  >
+          </td>
+          <td>Cambio de rodamientos</td>
+          <td>500</td>
+          <td>400</td>
+        </tr>
+        <tr>  <!--fila n9-->
+          <td>
+            <img class="img-rounded" src="imagenes/motor2.jpg" width="100px" high="100px" alt="transmisiones"  >
+          </td>
+          <td>Cambio de transmisiones</td>
+          <td>700</td>
+          <td>670</td>
+        </tr>
+        <tr>  <!--fila n10-->
+          <td>
+            <img class=" img-rounded" src="imagenes/7.jpg" width="100px" high="100px" alt="chasis"  >
+          </td>
+          <td>Pintado de chasis</td>
+          <td>1000</td>
+          <td>900</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</section>
+
+      <!-- PIE DE PAGINA-->
+            <section>
+              <footer >
+                <nav>
+              <ul class="breadcrumb fondototal">
+                 <li><a  href="index.html" class="enlace_inicio a"> Inicio </a></li>
+                 <li><a  href="precios.html" class="enlace_inicio a"> Precios </a></li>
+                 <li><a  href="productos.html" class="enlace_inicio a"> Productos </a></li>
+                 <li><a  href="promociones.html"  class="enlace_inicio a"> Promociones </a></li>
+              </ul>
+            </nav>
+              </footer>
+        </section>
+    </body>
+    </div>
+  </html>

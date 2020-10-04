@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>De Lujo</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="CSS/bootstrap.css">
+    <link rel="stylesheet" href="CSS/estilos.css">
+    <link href='https://fonts.googleapis.com/css?family=Orbitron:500' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+
+      <!--Hace funcionar el menu para el dispositivo movil-->
+    <script src ="js/jquery-2.2.3.min.js"></script>
+    <script src ="js/bootstrap.js"></script>
+  </head>
+
+  <!--Cuerpo de la web-->
+  <body class="fondototal">
+    <div class="container">
+      <header>
+        <!--Jumbotron, se adapta al ancho del dispositivo-->
+          <div class="jumbotron fondojumbotron">
+          <h1>De lujo</h1>
+        <div class="fuente">  <i class="fa fa-car" aria-hidden="true"> Porque sabemos lo que necesitas</i></div>
+        </div>
+
+        <nav class="navbar navbar-default fondototal">
+          <div class="conteiner-fluid">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#barra1" aria-expanded="false">
+
+                    <!--span= usa clase sr-only , se usa para personas con discapacidad (ceguera) -->
+                  <span class="sr-only">barra de navegacion</span>
+                    <!--icon bar=botton linesitas-->
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+             </div>
+            <!--COLLAPSE= Hace que la barra colapse-->
+              <div class="collapse navbar-collapse" id="barra1">
+                <ul class="nav navbar-nav">
+
+                  <!--# hace referencia asi misma, a la misma pagina-->
+                  <!--  <li class="active"><a href="#">Inicio</a></li>-->
+                  <!--Menu emergente-->
+                  <li class="dropdown active" >
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                    role="button" aria-haspopup="true" aria-expanded="false">Inicio<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li class="active"><a href="index.html#quienessomos">Quienes somos</a></li>
+                      <li ><a href="contacto.html#historia">Contacto</a></li>
+                    </ul>
+
+                  <li ><a href="precios.html#precios">Precios</a></li>
+                  <li ><a href="productos.html#productos">Productos</a></li>
+                  <li ><a href="promociones.html#promociones">Promociones</a></li>
+                </ul>
+              </div>
+          </div>
+        </nav>
+      </header>
+      <section>
+        <div class="row ">
+        <div class="col-xs-12  col-sm-12 col-md-12 col-lg-12">
+          <img class="img-responsive img-rounded" src="imagenes/fondo.jpg" alt="imagen de fondo " >
+        </div>
+      </div>
+      </section>
+
+<!--PIE DE PAGINA-->
+      <section>
+        <footer >
+          <nav>
+          <ul class="breadcrumb fondototal">
+           <li><a  href="index.html" class="enlace_inicio a"> Inicio </a></li>
+           <li><a  href="precios.html" class="enlace_inicio a"> Precios </a></li>
+           <li><a  href="productos.html" class="enlace_inicio a"> Productos </a></li>
+           <li><a  href="promociones.html"  class="enlace_inicio a"> Promociones </a></li>
+        </ul>
+    </nav>
+        </footer>
+      </section>
+    </div>
+  </body>
+  </html>
